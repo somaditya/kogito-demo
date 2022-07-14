@@ -1,0 +1,41 @@
+{"specversion": "0.3","id": "21627e26-31eb-43e7-8343-92a696fd96b1","source": "http://localhost","type": "users", "time": "2022-02-24T13:25:16+0000", "data": "1"}
+
+{"specversion": "0.3","id": "21627e26-31eb-43e7-8343-92a696fd96b1","source": "http://localhost","type": "users", "time": "2022-02-24T13:25:16+0000", "data": "0"}
+
+
+{
+  "specversion": "0.3",
+  "id": "21627e26-31eb-43e7-8343-92a696fd96b1",
+  "source": "",
+  "type": "travellers",
+  "time": "2022-02-24T13:25:16+0000",
+  "data": {
+	"firstName" : "Jan",
+	"lastName" : "Kowalski",
+	"email" : "jan.kowalski@example.com",
+	"nationality" : "Polish"
+	}
+}
+
+
+{
+  "specversion": "0.3",
+  "id": "86f69dd6-7145-4188-aeaa-e44622eeec86",
+  "source": "",
+  "type": "TravellersMessageDataEvent_3",
+  "time": "2019-10-03T16:22:40.373523+02:00[Europe/Warsaw]",
+  "data": {
+    "firstName": "Jan",
+    "lastName": "Kowalski",
+    "email": "jan.kowalski@example.com",
+    "nationality": "Polish",
+    "processed": true
+  },
+  "kogitoProcessinstanceId": "4fb091c2-82f7-4655-8687-245a4ab07483",
+  "kogitoParentProcessinstanceId": null,
+  "kogitoRootProcessinstanceId": null,
+  "kogitoProcessId": "Travellers",
+  "kogitoRootProcessId": null,
+  "kogitoProcessinstanceState": "1",
+  "kogitoReferenceId": null
+}
