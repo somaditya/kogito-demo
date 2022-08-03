@@ -16,12 +16,16 @@ public class UserService {
     @RestClient
     UsersRemoteService usersRemoteService;
 
+    public void addUser(User user) {
+        usersRemoteService.add(user);
+    }
+
     @Fallback(fallbackMethod = "userNotFound")
-    public User getUserById(String userId) {
+    public User getUserById(Integer userId) {
         return usersRemoteService.get(userId);
     }
 
-    public User userNotFound(String userId) {
+    public User userNotFound(Integer userId) {
         return null;
     }
 }
